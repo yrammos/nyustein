@@ -471,5 +471,7 @@
         \end{center}
 
         % Clean up.
+        \clearpage
+        \pagestyle{plain}
         \DoubleSpacing
 }
