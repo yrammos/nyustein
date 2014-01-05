@@ -28,15 +28,15 @@
 \pgfmathsetlengthmacro{\tlll}{\baselineskip-0.265in}
 
 % Miscellaneous facilities for prose writing.
-\RequirePackage{csquotes}
+\RequirePackage[autostyle=true, english=american, french=guillemets, german=guillemets]{csquotes}
+\RequirePackage[french, german, english]{babel}
+\RequirePackage{lipsum}
 \RequirePackage{lips}
 \RequirePackage{enumitem}
 \RequirePackage[indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
-\RequirePackage[french, german, english]{babel}
 
 % Bibliography.
 \RequirePackage[notes, short, strict, autolang=hyphen, backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
-\bibliography{/Users/rammos/Dropbox/Dissertation/ostracon/biblio.bib}
 
 % Page layout.
 \settypeblocksize{8.5in}{5.5in}{*}
