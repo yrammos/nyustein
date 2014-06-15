@@ -36,7 +36,7 @@
 \RequirePackage[indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
 
 % Bibliography.
-\RequirePackage[notes, short, strict, autolang=hyphen, backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
+\RequirePackage[notes, short, strict, autolang=hyphen, doi=only, backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
 
 % Page layout.
 \settypeblocksize{8.5in}{5.5in}{*}
