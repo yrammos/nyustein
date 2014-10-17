@@ -12,7 +12,7 @@
 
 % pdfLaTeX with UTF-8 (Unicode) encoding enabled.
 \RequirePackage[utf8]{inputenc}
-\RequirePackage[T1]{fontenc}
+\RequirePackage[OT1]{fontenc}
 
 % Graphics packages.
 \RequirePackage{graphicx}
@@ -36,7 +36,7 @@
 \RequirePackage[indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
 
 % Bibliography.
-\RequirePackage[notes, short, strict, autolang=hyphen, doi=only, backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
+\RequirePackage[notes, strict, autolang=hyphen, doi=only, backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
 
 % Page layout.
 \settypeblocksize{8.5in}{5.5in}{*}
