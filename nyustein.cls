@@ -10,10 +10,6 @@
 % nyustein is based on the memoir class.
 \LoadClass[letterpaper, 11pt, oneside]{memoir}
 
-% pdfLaTeX with UTF-8 (Unicode) encoding enabled.
-\RequirePackage[utf8]{inputenc}
-\RequirePackage[OT1]{fontenc}
-
 % Graphics packages.
 \RequirePackage{graphicx}
 
@@ -27,9 +23,13 @@
 \pgfmathsetlengthmacro{\tll}{\baselineskip+.05in}
 \pgfmathsetlengthmacro{\tlll}{\baselineskip-0.265in}
 
+% pdfLaTeX with UTF-8 (Unicode) encoding enabled.
+\RequirePackage[greek, french, german, english]{babel}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[LGR, OT1]{fontenc}
+
 % Miscellaneous facilities for prose writing.
 \RequirePackage[autostyle=true, english=american, french=guillemets, german=guillemets]{csquotes}
-\RequirePackage[french, german, english]{babel}
 \RequirePackage{lipsum}
 \RequirePackage{lips}
 \RequirePackage{enumitem}
