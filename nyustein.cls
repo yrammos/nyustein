@@ -24,7 +24,7 @@
 \pgfmathsetlengthmacro{\tlll}{\baselineskip-0.265in}
 
 % pdfLaTeX with UTF-8 (Unicode) encoding enabled.
-\RequirePackage[greek, french, german, english]{babel}
+\RequirePackage[greek, french, german, american]{babel}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[LGR, OT1]{fontenc}
 
