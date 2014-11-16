@@ -35,6 +35,9 @@
 \RequirePackage{enumitem}
 \RequirePackage[indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
 
+% Use todonotes for annotations, comments, reminders, etc.
+\usepackage[textsize=tiny]{todonotes}
+
 % Bibliography.
 \RequirePackage[notes, strict, autolang=hyphen, doi=only, backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
 
