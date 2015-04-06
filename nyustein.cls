@@ -161,7 +161,8 @@
 %% Shortcuts to float references.
 \newcommand{\eref}[1]{Example~\ref{#1}}
 \newcommand{\cref}[1]{Chapter~\ref{#1}}
-\newcommand{\nref}[1]{Note~\ref{#1}}
+\newcommand{\Nref}[1]{Note~\ref{#1}}
+\newcommand{\nref}[1]{note~\ref{#1}}
 \renewcommand{\tref}[1]{\tablerefname~\ref{#1}}
 \renewcommand{\fref}[1]{\figurerefname~\ref{#1}}
 \renewcommand{\pref}[1]{\pagerefname~\pageref{#1}}
