@@ -33,7 +33,7 @@
 \RequirePackage{lipsum}
 \RequirePackage{lips}
 \RequirePackage{enumitem}
-\RequirePackage[indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
+\RequirePackage[noorphans=true, indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
 
 % Use todonotes for annotations, comments, reminders, etc.
 \usepackage[textsize=tiny]{todonotes}
