@@ -111,8 +111,15 @@
 \AfterEndEnvironment{quoting}{\DoubleSpacing}
 \AfterEndEnvironment{quoting}{\vspace{0.07in}}
 
-% Commands for inline music typesetting.
+% Facilities for inline music typesetting.
 \newcommand{\stufe}[1]{$\widehat{#1}$}  % Schenkerian scale degree (e.g. ^1).
+\usepackage{harmony}
+\newcommand{\sh}{$\sharp$}
+\newcommand{\fl}{$\flat$}
+\newcommand{\nat}{$\natural$}
+\newcommand{\m}[1]{m.\ #1}
+\newcommand{\mm}[1]{mm.\ #1}
+\newcommand{\mmb}[1]{mm.\ \mbox{#1}}
 
 % Itemize and enumerate.
 \AfterPreamble{\setlist[itemize]{nosep, label=\emph{\textendash}, listparindent=0.25in, leftmargin=0.38in, labelindent=0in, labelsep=0.10in}}
