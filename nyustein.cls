@@ -113,13 +113,35 @@
 
 % Facilities for inline music typesetting.
 \newcommand{\stufe}[1]{$\widehat{#1}$}  % Schenkerian scale degree (e.g. ^1).
-\usepackage{harmony}
-\newcommand{\sh}{$\sharp$}
-\newcommand{\fl}{$\flat$}
-\newcommand{\nat}{$\natural$}
+\newcommand{\sh}{$\sharp$\ }
+\newcommand{\fl}{$\flat$\ }
+\newcommand{\nat}{$\natural$\ }
 \newcommand{\m}[1]{m.\ #1}
 \newcommand{\mm}[1]{mm.\ #1}
 \newcommand{\mmb}[1]{mm.\ \mbox{#1}}
+%% Macro for bass figures and chords.
+\usepackage{amsmath}
+\newlength{\pleft}
+\newlength{\pright}
+\newlength{\pleftt}
+\newlength{\prightt}
+\newcommand{\fb}[4]{
+        \settowidth{\pright}{($\big($)}\setlength{\pright}{-0.9\pright}
+        \settowidth{\pleft}{($\big($)}\setlength{\pleft}{-1.88\pleft}
+        \settowidth{\prightt}{($\big($)}\setlength{\prightt}{-0.6\prightt}
+        \settowidth{\pleftt}{($\big($)}\setlength{\pleftt}{-1.63\pleftt}
+        \ifthenelse{\equal{#4}{}} {
+                \ifthenelse{\equal{#3}{}}{
+                        {#1}{#2}
+                }
+                {
+                         \kern\pleft\(\textrm{#1}\begin{smallmatrix}{#2}\\{#3}\end{smallmatrix}\)\kern\pright\
+                }
+        }
+        {
+                        \kern\pleftt\(\textrm{#1}\begin{smallmatrix}{#2}\\{#3}\\{#4}\end{smallmatrix}\)\kern\prightt\
+        }
+}
 
 % Itemize and enumerate.
 \AfterPreamble{\setlist[itemize]{nosep, label=\emph{\textendash}, listparindent=0.25in, leftmargin=0.38in, labelindent=0in, labelsep=0.10in}}
