@@ -186,9 +186,10 @@
 
 % Title and footer formatting for the TOC and other such lists.
 %% Fix TOC title.
-\addto\captionsenglish{
+\addto\captionsamerican{
   \renewcommand{\contentsname}{Table of Contents}
 }
+
 %% Create a custom page style for the TOC. Conditionally add "(continued)" in footer.
 %% Warning: Dirty hack.
 \copypagestyle{toc}{plain}
@@ -310,8 +311,7 @@
           \begingroup
           \setlength{\beforechapskip}{0.31in}
           \SingleSpacing}{}{}
-\apptocmd{\tableofcontents}{
-         *\endgroup % Note that we hard-wire the asterisk so that the TOC does not include itself.
+\apptocmd{\tableofcontents}{*\endgroup % Note that we hard-wire the asterisk so that the TOC does not include itself.
           \clearpage\pagestyle{plain}
           \changepage{0.33in}{}{}{}{}{}{}{}{-0.33in}        % Reclaim space allocated for "continued".
           \DoubleSpacing}{}{}
