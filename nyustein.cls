@@ -138,6 +138,7 @@
 % Floats.
 %% Float positioning.
 %%% General.
+\usepackage{flafter} % Ensure that floats are not placed before declaration.
 \captionwidth{11.45cm}\changecaptionwidth
 \hangcaption
 \hangsubcaption
