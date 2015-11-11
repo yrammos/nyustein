@@ -426,6 +426,12 @@
         \vfill
 }
 
+% Epigraph settings
+\epigraphfontsize{\small\itshape\SingleSpacing}
+\setlength\epigraphwidth{8cm}
+\setlength\epigraphrule{0pt}
+\apptocmd{\epigraph}{\DoubleSpacing}{}{}
+
 % Macro to generate a title page.
 \newcommand{\titlepage}[9]{
 % \titlepage parameters:
