@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{nyustein}[2014/01/05 NYU Steinhardt Music dissertation.]
+\ProvidesPackage{nyustein}[2015/11/11 NYU Steinhardt Music dissertation.]
 
 % moredefs is a required package but the following commands are also defined in
 % memoir, causing a conflict, hence this patch.
@@ -24,9 +24,9 @@
 \pgfmathsetlengthmacro{\tlll}{\baselineskip-0.265in}
 
 % pdfLaTeX with UTF-8 (Unicode) encoding enabled.
-\RequirePackage[greek, french, german, american]{babel}
+\RequirePackage[russian, greek, french, german, american]{babel}
+\RequirePackage[T2A, LGR, T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
-\RequirePackage[LGR, OT1]{fontenc}
 
 % Miscellaneous facilities for prose writing.
 \RequirePackage[autostyle=true, english=american, french=guillemets, german=guillemets]{csquotes}
