@@ -469,11 +469,11 @@
         \newbool{abstract}\setbool{abstract}{#7}
         \ifthenelse{\boolean{abstract}}
         {
-                \vspace{1.75in}
+                \vspace{1.55in}
                 \noindent\hspace*{\fill}An Abstract of\hspace*{\fill}
         }
         {
-                \vspace{2.05in}
+                \vspace{1.85in}
         }
         \par\noindent
         \hspace*{\fill}\MakeUppercase{#4}\hspace*{\fill}\par\noindent
