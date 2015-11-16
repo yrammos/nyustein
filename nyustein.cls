@@ -38,7 +38,7 @@
 \RequirePackage[normalem]{ulem}
 
 % Use todonotes for annotations, comments, reminders, etc.
-\usepackage[textsize=tiny]{todonotes}
+\RequirePackage[textsize=tiny]{todonotes}
 
 % Bibliography.
 \RequirePackage[notes, strict, autolang=hyphen, doi=only, backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
@@ -122,7 +122,7 @@
 \newcommand{\mm}[1]{mm.\ #1}
 \newcommand{\mmb}[1]{mm.\ \mbox{#1}}
 %% Macro for bass figures and chords.
-\usepackage{amsmath}
+\RequirePackage{amsmath}
 \newcommand{\fb}[4]{%
 \ifthenelse{\equal{#4}{}}{%
 \ifthenelse{\equal{#3}{}}{%
@@ -140,7 +140,7 @@
 % Floats.
 %% Float positioning.
 %%% General.
-\usepackage{flafter} % Ensure that floats are not placed before declaration.
+\RequirePackage{flafter} % Ensure that floats are not placed before declaration.
 \RequirePackage[counterclockwise]{rotating} % Required to typeset wide floats in landscape orientation.
 \captionwidth{11.45cm}\changecaptionwidth
 \hangcaption
