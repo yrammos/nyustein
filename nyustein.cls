@@ -34,6 +34,8 @@
 \RequirePackage{lips}
 \RequirePackage{enumitem}
 \RequirePackage[noorphans=true, indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
+\RequirePackage{parallel}
+\RequirePackage[normalem]{ulem}
 
 % Use todonotes for annotations, comments, reminders, etc.
 \usepackage[textsize=tiny]{todonotes}
@@ -139,6 +141,7 @@
 %% Float positioning.
 %%% General.
 \usepackage{flafter} % Ensure that floats are not placed before declaration.
+\RequirePackage[counterclockwise]{rotating} % Required to typeset wide floats in landscape orientation.
 \captionwidth{11.45cm}\changecaptionwidth
 \hangcaption
 \hangsubcaption
