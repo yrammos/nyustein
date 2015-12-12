@@ -46,7 +46,8 @@
 \RequirePackage[textsize=tiny]{todonotes}
 
 % Bibliography.
-\RequirePackage[notes, strict, autolang=hyphen, doi=only, backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
+\RequirePackage[notes, strict, short, autolang=hyphen, doi=only,
+backend=biber, bibencoding=utf8, backref=true]{biblatex-chicago}
 
 % Page layout.
 \settypeblocksize{8.5in}{5.5in}{*}
