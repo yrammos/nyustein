@@ -36,6 +36,7 @@
 \RequirePackage[noorphans=true, indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
 \RequirePackage{parallel}
 \RequirePackage[normalem]{ulem}
+\RequirePackage{hyphenat}
 
 % Use todonotes for annotations, comments, reminders, etc.
 \RequirePackage[textsize=tiny]{todonotes}
