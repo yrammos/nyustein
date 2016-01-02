@@ -146,6 +146,8 @@
 \captionwidth{11.45cm}\changecaptionwidth
 \hangcaption
 \hangsubcaption
+\captionstyle{\raggedright}
+\subcaptionstyle{\raggedright}
 %%% Examples.
 \newfloat[chapter]{example}{lex}{Example}
 \newsubfloat{example}
