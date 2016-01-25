@@ -143,8 +143,6 @@
 %%% General.
 \RequirePackage{flafter} % Ensure that floats are not placed before declaration.
 \RequirePackage[counterclockwise]{rotating} % Required to typeset wide floats in landscape orientation.
-\RequirePackage{rotfloat} % Required to enable custom sideways floats.
-\AfterPreamble{\restylefloat{example}} % Ibid.
 \captionwidth{11.45cm}\changecaptionwidth
 \hangcaption
 \hangsubcaption
