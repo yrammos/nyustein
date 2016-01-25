@@ -512,3 +512,7 @@
         \pagestyle{plain}
         \DoubleSpacing
 }
+
+% Generate sideways examples float type.
+\RequirePackage {rotfloat} % Required to enable custom sideways floats.
+\AfterEndPreamble{\restylefloat{example}} % Ibid.
