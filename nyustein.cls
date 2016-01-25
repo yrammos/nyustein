@@ -143,6 +143,8 @@
 %%% General.
 \RequirePackage{flafter} % Ensure that floats are not placed before declaration.
 \RequirePackage[counterclockwise]{rotating} % Required to typeset wide floats in landscape orientation.
+\RequirePackage{rotfloat} % Required to enable custom sideways floats.
+\AfterPreamble{\restylefloat{example}} % Ibid.
 \captionwidth{11.45cm}\changecaptionwidth
 \hangcaption
 \hangsubcaption
@@ -187,9 +189,9 @@
 \newcommand{\cref}[1]{Chapter~\ref{#1}}
 \newcommand{\Nref}[1]{Note~\ref{#1}}
 \newcommand{\nref}[1]{note~\ref{#1}}
-\renewcommand{\tref}[1]{\tablerefname~\ref{#1}}
-\renewcommand{\fref}[1]{\figurerefname~\ref{#1}}
-\renewcommand{\pref}[1]{\pagerefname~\pageref{#1}}
+\renewcommand{\tref}[1]{Table~\tablerefname~\ref{#1}}
+\renewcommand{\fref}[1]{Figure~\figurerefname~\ref{#1}}
+\renewcommand{\pref}[1]{page~\pagerefname~\pageref{#1}}
 
 % Title and footer formatting for the TOC and other such lists.
 %% Fix TOC title.
