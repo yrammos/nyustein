@@ -119,9 +119,9 @@
 \newcommand{\shp}{$\sharp$\ }
 \newcommand{\flt}{$\flat$\ }
 \newcommand{\nat}{$\natural$\ }
-\newcommand{\m}[1]{m.\ #1}
-\newcommand{\mm}[1]{mm.\ #1}
-\newcommand{\mmb}[1]{mm.\ \mbox{#1}}
+\newcommand{\m}[1]{m.\,#1}
+\newcommand{\mm}[1]{mm.\,#1}
+\newcommand{\mmb}[1]{mm.\,\mbox{#1}}
 %% Macro for bass figures and chords.
 \RequirePackage{amsmath}
 \newcommand{\fb}[4]{%
