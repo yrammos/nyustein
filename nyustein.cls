@@ -514,4 +514,4 @@
 % Generate sideways examples float type.
 % \RequirePackage {rotfloat} % Required to enable custom sideways floats.
 % \AfterEndPreamble{\restylefloat{example}} % Ibid.
-% \RequirePackage {caption} % Go figure; fixes examples captions after this rotfloat business.
+\RequirePackage {caption} % Go figure; fixes examples captions after this rotfloat business.
