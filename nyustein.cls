@@ -515,3 +515,8 @@
 % \RequirePackage {rotfloat} % Required to enable custom sideways floats.
 % \AfterEndPreamble{\restylefloat{example}} % Ibid.
 \RequirePackage {caption} % Go figure; fixes examples captions after this rotfloat business.
+
+% Required since March 10 2016 (see http://tex.stackexchange.com/questions/298398/impossible-to-build-document-with-biblatex-chicago)
+\makeatletter
+\def\cms@choose{cms}
+\makeatother
