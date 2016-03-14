@@ -31,6 +31,7 @@
 % Miscellaneous facilities for prose writing.
 \RequirePackage[autostyle=true, english=american, french=guillemets, german=guillemets]{csquotes}
 \RequirePackage{lipsum}
+\RequirePackage{cancel} % For oblique strikeouts.
 \RequirePackage{lips}
 \RequirePackage{enumitem}
 \RequirePackage[noorphans=true, indentfirst=false, leftmargin=0.5in, rightmargin=0in, vskip=\tlll]{quoting}
