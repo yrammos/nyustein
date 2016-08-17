@@ -492,7 +492,7 @@
         \vspace{0.38in}
         \noindent\hspace*{\fill}{#9}\hspace*{\fill}
         \par\vspace{0.19in}
-        \noindent\hspace*{\fill}Department of Music \& Performing Arts\hspace*{\fill}\par
+        \noindent\hspace*{\fill}Department of Music \& Performing Arts Professions\hspace*{\fill}\par
         \noindent\hspace*{\fill}Program in Music for Performers\hspace*{\fill}
 
         % Typeset institution and degree info
