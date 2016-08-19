@@ -144,10 +144,10 @@
 %%% General.
 \RequirePackage{flafter} % Ensure that floats are not placed before declaration.
 \RequirePackage[counterclockwise]{rotating} % Required to typeset wide floats in landscape orientation.
-\captionwidth{11.45cm}\changecaptionwidth
+% \captionwidth{11.45cm}\changecaptionwidth % Commented-out because it does not conform to guidelines.
 \hangcaption
 \hangsubcaption
-\captionstyle{\raggedright}
+\captionstyle[\raggedright]{\raggedright}
 \subcaptionstyle{\raggedright}
 %%% Examples.
 \newfloat[chapter]{example}{lex}{Example}
@@ -515,4 +515,4 @@
 % Generate sideways examples float type.
 % \RequirePackage {rotfloat} % Required to enable custom sideways floats.
 % \AfterEndPreamble{\restylefloat{example}} % Ibid.
-\RequirePackage {caption} % Go figure; fixes examples captions after this rotfloat business.
+% \RequirePackage {caption} % Go figure; fixes examples captions after this rotfloat business.
