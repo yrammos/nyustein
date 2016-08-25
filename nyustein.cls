@@ -10,6 +10,9 @@
 % nyustein is based on the memoir class.
 \LoadClass[letterpaper, 11pt, oneside]{memoir}
 
+% Use microtype for typographical fine-tuning.
+\usepackage{microtype}
+
 % Graphics packages.
 \RequirePackage{graphicx}
 
