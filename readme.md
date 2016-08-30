@@ -1,6 +1,6 @@
 # nyustein
 
-My custom LaTeX class for hands-free typesetting according to these[NYU Doctoral Dissertation Formatting Guidelines](http://steinhardt.nyu.edu/doctoral/dissertation/formatting). Based on the [memoir](http://www.ctan.org/pkg/memoir) package. Includes facilities for music theory (e.g. a macro for Schenkerian scale degrees).
+My custom LaTeX class for hands-free typesetting according to these [NYU Doctoral Dissertation Formatting Guidelines](http://steinhardt.nyu.edu/doctoral/dissertation/formatting). Based on the [memoir](http://www.ctan.org/pkg/memoir) package. Includes facilities for music theory (e.g. a macro for Schenkerian scale degrees).
 
 Class customizations are currently only possible by hard-coding into the `.cls`. ~~Future releases, especially if public, may add support for `\documentclass` options.~~
 
